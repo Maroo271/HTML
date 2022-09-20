@@ -7,10 +7,10 @@ body {
     display: flex;
     flex-direction:row-reverse;
     justify-content: center ;
-    width:1200px;
+    width:1050px;
     margin: 0 auto;
     background: #ffffff;
-    box-shadow: 6px 6px 20px rgba(0,0,0,0.1)
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
 }
 aside {
     width:370px;
@@ -30,6 +30,7 @@ img{
 }
 .bold {
     font-weight: 700;
+    color:#F7996E;
 }
 .list-secondary{
     color:#FB6D3A;
@@ -44,10 +45,15 @@ img{
     color:#ffffff;
 }
 .contact-block {
+    color:#ffffff;
     margin-top:37px;
     margin-left:40px;
 }
 .tech-skills-block {
+    margin-top:47px;
+    margin-left:40px;
+}
+.other-skills-block {
     margin-top:47px;
     margin-left:40px;
 }
@@ -57,6 +63,7 @@ img{
 }
 main{
     padding:102px 88px 102px 88px;
+    float:right;
 }
 .main-description {
     width:400px;
@@ -105,8 +112,10 @@ h1 {
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 12px;
+    color:#595959;
 }
 .job-name {
+    color:#FB6D3A;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -125,4 +134,7 @@ h1 {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
+}
+.e1 {
+    color:#ffffff;
 }
